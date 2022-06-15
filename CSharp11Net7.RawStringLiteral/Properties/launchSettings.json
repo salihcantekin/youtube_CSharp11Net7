@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "CSharp11Net7.RawStringLiteral": {
+      "commandName": "Project"
+    },
+    "WSL": {
+      "commandName": "WSL2",
+      "environmentVariables": {},
+      "distributionName": ""
+    }
+  }
+}
