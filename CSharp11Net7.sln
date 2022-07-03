@@ -5,6 +5,8 @@ VisualStudioVersion = 17.2.32526.322
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CSharp11Net7.RawStringLiteral", "CSharp11Net7.RawStringLiteral\CSharp11Net7.RawStringLiteral.csproj", "{5675C089-279C-4974-9498-02FED17C7B17}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharp11Net7.RequiredProperties", "CSharp11Net7.RequiredProperties\CSharp11Net7.RequiredProperties.csproj", "{3A2258F9-C196-46AB-AEF6-C867B48FC5AD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{5675C089-279C-4974-9498-02FED17C7B17}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5675C089-279C-4974-9498-02FED17C7B17}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5675C089-279C-4974-9498-02FED17C7B17}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A2258F9-C196-46AB-AEF6-C867B48FC5AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A2258F9-C196-46AB-AEF6-C867B48FC5AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A2258F9-C196-46AB-AEF6-C867B48FC5AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A2258F9-C196-46AB-AEF6-C867B48FC5AD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
