@@ -21,7 +21,7 @@ Console.ReadLine();
 
 class Request
 {
-    public required string BaseUrl { get; set; }
+    public /*required*/ string BaseUrl { get; set; }
 
     public object BodyObject { get; set; }
 
@@ -43,9 +43,9 @@ class Request
             RequestUri = new Uri(BaseUrl + url)
         };
 
-        if (bodyObject is not null)
+        if (BodyObject is not null)
         {
-            req.Content = new StringContent(JsonSerializer.Serialize(bodyObject));
+            req.Content = new StringContent(JsonSerializer.Serialize(BodyObject));
             req.Content.Headers.ContentType = new MediaTypeHeaderValue("application/json");
         }
 
